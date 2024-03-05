@@ -60,7 +60,7 @@ padding-right: 50px;
 
 }
 footer{
-    margin-top: 800px;
+    margin-top: 100px;
     margin-bottom: 30px;
     font-size: 22px;
     text-align: center;
@@ -91,13 +91,16 @@ footer a :hover{
 .div2{
     margin-top: 100px;
 }
-@media (max-width:600px) 
+div .poster{
+    margin-top: 20px;
+}
+@media (max-width:750px) 
 {
     div.nav{
         display: none;
     }
 }
-@media (min-width:601px)
+@media (min-width:751px)
 {
     div.dropdown{
         display: none;
